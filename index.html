@@ -9,4 +9,10 @@ title: {{ site.name }}
     Our goal is to support one another in learning ML topics.</p>
   <p>The <a href="https://github.com/Pittsburgh-Machine-Learners/PghML">PghML</a>  
     github organization is a place to share code examples with the group.</p>
+  
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
 </div>
