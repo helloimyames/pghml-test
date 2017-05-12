@@ -6,9 +6,8 @@ paginate:     1
 
 # About/contact
 author:
-  name:       Author name
-  url:        http://yourhomepage.com 
-
+  name:       helloimyames
+  url:        https://github.com/helloimyames
 # Gems
 gems:
   - jekyll-paginate
